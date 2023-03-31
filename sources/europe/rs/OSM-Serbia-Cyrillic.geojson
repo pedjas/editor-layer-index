@@ -1,0 +1,45 @@
+{
+    "type": "Feature",
+    "properties": {
+        "id": "OSM Serbia Cyrillic",
+        "attribution": {
+            "text": "Map © OSM Serbia, data © OpenStreetMap contributors",
+            "required": true,
+            "url": "https://openstreetmap.rs/map"
+        },
+        "name": "OSM Serbia Cyrillic",
+        "url": " http://ue.cache.osmsrbija.iz.rs:80/cir/{z}/{x}/{y}.png",
+        "max_zoom": 18,
+        "min_zoom": 7,
+        "country_code": "RS",
+        "type": "tms",
+        "category": "osmbasedmap"
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    16.69,
+                    47.64
+                ],
+                [
+                    22.67,
+                    47.64
+                ],
+                [
+                    22.67,
+                    49.65
+                ],
+                [
+                    16.69,
+                    49.65
+                ],
+                [
+                    16.69,
+                    47.64
+                ]
+            ]
+        ]
+    }
+}
